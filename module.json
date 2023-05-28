@@ -1,0 +1,92 @@
+{
+	"id": "banana",
+	"title": "Banana",
+	"description": "Totally not suspicious banana",
+	"version": "9.68.0",
+	"authors": [
+		{
+			"name": "Clang"
+		}
+	],
+	"keywords": [
+		"sheets",
+		"audio",
+		"automation",
+		"chat",
+		"combat",
+		"importer",
+		"content",
+		"dice",
+		"integration",
+		"journal",
+		"overhaul",
+		"patches",
+		"tools",
+		"visuals"
+	],
+	"readme": "README.md",
+	"license": "UNLICENSED",
+	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module-foundry11.json",
+	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium-foundry11.zip",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11.299"
+	},
+	"socket": true,
+	"persistentStorage": true,
+	"esmodules": [
+		"./js/Bundle.js"
+	],
+	"styles": [
+		"./art-css/ArtBrowser.css",
+		"./css/main.css"
+	],
+	"packs": [
+		{
+			"name": "macros",
+			"label": "Macros",
+			"system": "dnd5e",
+			"path": "./packs/macros.db",
+			"type": "Macro"
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"relationships": {
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"compatibility": {
+					"minimum": "1.12.5.0"
+				},
+				"reason": "libWrapper is used to patch Foundry methods and functions, extending or altering their functionality."
+			}
+		],
+		"conflicts": [
+			{
+				"id": "babele",
+				"type": "module",
+				"reason": "Just because"
+			},
+			{
+				"id": "better-rolltables",
+				"type": "module",
+				"reason": "Just because"
+			}
+		]
+	},
+	"documentTypes": {
+		"JournalEntryPage": {
+			"url": {}
+		}
+	},
+	"flags": {
+		"attributions": "shut"
+	}
+}
