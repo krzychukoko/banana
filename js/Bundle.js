@@ -55195,7 +55195,7 @@ globalThis.UtilGenTables = UtilGenTables$1;
 
 class SharedConsts {}
 
-SharedConsts.MODULE_TITLE = "Plutonium";
+SharedConsts.MODULE_TITLE = "banana";
 SharedConsts.MODULE_TITLE_FAKE = "SRD: Enhanced";
 SharedConsts.MODULE_ID = "banana";
 SharedConsts.MODULE_ID_FAKE = "srd5e";
@@ -55209,7 +55209,7 @@ SharedConsts.MODULE_LOCATION = `modules/${SharedConsts.MODULE_ID}`;
 class Util {
 	static _getLogTag () {
 		return [
-			`%cPlutonium`,
+			`%cbanana`,
 			`color: #337ab7; font-weight: bold;`,
 			`|`,
 		];

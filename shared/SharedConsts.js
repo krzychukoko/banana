@@ -1,8 +1,8 @@
 class SharedConsts {}
 
-SharedConsts.MODULE_TITLE = "Plutonium";
+SharedConsts.MODULE_TITLE = "banana";
 SharedConsts.MODULE_TITLE_FAKE = "SRD: Enhanced";
-SharedConsts.MODULE_ID = "plutonium";
+SharedConsts.MODULE_ID = "banana";
 SharedConsts.MODULE_ID_FAKE = "srd5e";
 
 SharedConsts.PACK_NAME_CREATURES = "creatures";
